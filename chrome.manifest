@@ -1,0 +1,6 @@
+content   fileslap                 chrome/content/
+skin      fileslap   classic/1.0   chrome/skin/
+locale    fileslap   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://fileslap/content/ff-overlay.xul

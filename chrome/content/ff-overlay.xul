@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://fileslap/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://fileslap/locale/overlay.dtd">
+<overlay id="fileslap-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="fileslap-strings" src="chrome://fileslap/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-fileslap-image" label="&fileslapImageContext.label;" oncommand="fileslap.imageCommand(event)"/>
+    <menuitem id="context-fileslap-link" label="&fileslapLinkContext.label;" oncommand="fileslap.linkCommand(event)"/>
+  </popup>
+
+</overlay>
